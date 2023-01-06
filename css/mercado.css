@@ -1,0 +1,73 @@
+
+.mercado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 20px;
+
+}
+.mercado h1 {
+    font-size: 2.5rem;
+    max-width: 25ch;
+    text-align: center;
+}
+
+.mercado p {
+    font-size: 1.25rem;
+    color: #9BA9B4;
+    font-weight: 500;
+    max-width: 60ch;
+    text-align: center;
+}
+
+.mercado-detalhes {
+    display: flex;
+    padding: 32px 0;
+    background-color: #25282C;
+
+}
+
+.mercado-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+    flex: 1;
+    gap: 15px;
+}
+
+.mercado-item span {
+    color: #2563EB;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.mercado-item p {
+    text-align: center;
+}
+
+@media (max-width: 766px) {
+    .mercado-detalhes {
+        flex-direction: column;
+        padding: 0 32px;
+    }
+
+    .mercado-item {
+        margin: 32px 0;
+        
+    }
+
+    .mercado-item span {
+        font-size: 1.8rem;
+    }
+
+  
+
+    hr {
+        width: 100%;
+    }
+}

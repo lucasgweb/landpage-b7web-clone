@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #D9E3EA;
+    font-family: 'Inter', sans-serif;
+    
+    background:#151719  url('../../img/background1.svg') no-repeat  top 0px right 0px ;
+    background-size: 600px;
+    margin-bottom: 200px;
+}
+
+
+h1,h2,  p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+hr {
+    border: 1px solid #33363A;
+}
+.btn {
+    background-color: #2563EB;
+    color: #FFF;
+    padding: 13px 32.875px 13px 33px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-group span{
+    font-size: 0.875rem;
+    color: #9BA9B4;
+}
+
+.container {
+    width: 57.5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+@media (max-width: 1025px) {
+    .container {
+        width: 90vw;
+    }
+}
