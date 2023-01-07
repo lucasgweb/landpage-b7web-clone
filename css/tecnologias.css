@@ -39,7 +39,6 @@
     align-items: center;
     gap: 20px;
     min-width: 300px;
-    flex-wrap: wrap;
 }
 
 .tecnologias-item p {
