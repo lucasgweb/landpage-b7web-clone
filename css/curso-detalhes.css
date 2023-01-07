@@ -76,7 +76,7 @@ max-width: 60ch;
     .curso-detalhes {
         grid-template-columns: 1fr;
         justify-items: center;
-        gap: 50px 10px;
+        gap: 70px 10px;
     }
     .order-1 {
         order: 1;
