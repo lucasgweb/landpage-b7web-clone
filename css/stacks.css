@@ -23,6 +23,7 @@
     color: #9BA9B4;
     text-align: center;
     margin-top: 20px;
+    max-width: 55ch;
 }
 
 .stacks-detalhes {
@@ -44,6 +45,7 @@
 .stacks-item p {
     font-size: 1.1rem;
     color: #9BA9B4;
+    
 }
 
 .stacks-item p {

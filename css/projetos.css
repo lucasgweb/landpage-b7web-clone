@@ -1,0 +1,46 @@
+.projetos {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    align-content: center;
+}
+
+.projetos h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.projetos p {
+    font-size: 1.25rem;
+    color: #9BA9B4;
+    max-width: 60ch;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projetos-content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projetos-item {
+    background-color: #25282C;
+    width: 258px;
+}
+
+.projetos-item img {
+    min-width: 100%;
+}
+
+.projetos-item p, .projetos-item h2 {
+    margin: 25px;
+    text-align: left;
+}
+
+.projetos-item p {
+    font-size: 1.1rem;
+}

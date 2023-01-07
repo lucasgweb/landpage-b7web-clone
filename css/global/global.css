@@ -58,3 +58,9 @@ hr {
         width: 90vw;
     }
 }
+
+@media (max-width: 1500px) {
+    .container {
+        width: 90vw;
+    }
+}
