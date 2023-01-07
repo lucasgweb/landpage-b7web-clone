@@ -20,7 +20,7 @@ img {
 
 hr {
     border: 1px solid #33363A;
-    padding: 0;
+    background-color: #33363A;
 }
 .btn {
     background-color: #2563EB;
@@ -50,7 +50,16 @@ hr {
     margin-right: auto;
 }
 
+.scroll-js {
+    opacity: 0;
+    transform: translate3d(-90px, 40px , 0);
+    transition: .4s;
+}
 
+.scroll-js.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0 , 0);
+}
 
 
 @media (max-width: 1025px) {
