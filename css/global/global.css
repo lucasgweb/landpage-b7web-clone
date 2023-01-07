@@ -52,8 +52,8 @@ hr {
 
 .scroll-js {
     opacity: 0;
-    transform: translate3d(-90px, -40px , 0);
-    transition: .5s;
+    transform: translate3d(-90px, 40px , 0);
+    transition: .7s;
 }
 
 .scroll-js.ativo {
