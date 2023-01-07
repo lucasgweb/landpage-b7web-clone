@@ -53,7 +53,7 @@ hr {
 .scroll-js {
     opacity: 0;
     transform: translate3d(-90px, 40px , 0);
-    transition: .4s;
+    transition: .9s;
 }
 
 .scroll-js.ativo {
