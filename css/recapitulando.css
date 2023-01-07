@@ -60,6 +60,7 @@
     border-left: 1px solid;
     color: #292929;
     display: block;
+    z-index: -1;
     position: absolute;
 
 }
